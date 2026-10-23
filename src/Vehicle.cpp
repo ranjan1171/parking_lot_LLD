@@ -24,3 +24,4 @@ VehicleType Vehicle::getType() const{
 Car::Car(std::string registrationNumber):Vehicle( std::move(registrationNumber), VehicleType::CAR){}
 Bike::Bike(std::string registrationNumber):Vehicle( std::move(registrationNumber), VehicleType::BIKE){}
 Truck::Truck(std::string registrationNumber):Vehicle( std::move(registrationNumber), VehicleType::TRUCK){}
+Bus::Bus(std::string registrationNumber):Vehicle( std::move(registrationNumber), VehicleType::BUS){}

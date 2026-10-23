@@ -1,0 +1,10 @@
+^C:\USERS\HP\ONEDRIVE\DESKTOP\LLD\PARKING_LOT_LLD\BUILD\CMAKEFILES\77062A63F9105FB4CB9DE2941539889D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/HP/OneDrive/Desktop/LLD/parking_lot_LLD -BC:/Users/HP/OneDrive/Desktop/LLD/parking_lot_LLD/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/HP/OneDrive/Desktop/LLD/parking_lot_LLD/build/parking_lot_LLD.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

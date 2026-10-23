@@ -2,7 +2,7 @@
 #include <utility>
 #include <stdexcept>
 
-ParkingSpot::ParkingSpot(std::string id, VehicleType SupportedType ):id(std::move(id)),supportedType(supportedType){
+ParkingSpot::ParkingSpot(std::string id, VehicleType SupportedType ):id(std::move(id)),supportedType(SupportedType){
     if(this->id.empty()){
         throw std::invalid_argument("parking spot-id  cant be empty");
 
@@ -38,4 +38,3 @@ void ParkingSpot::release(){
     parkedRegistration.clear();
 
 }
-

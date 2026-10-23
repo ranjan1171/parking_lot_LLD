@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\build\CMakeFiles\77062a63f9105fb4cb9de2941539889d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E812F176-57EB-3E8B-BE7E-77B624A6742B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

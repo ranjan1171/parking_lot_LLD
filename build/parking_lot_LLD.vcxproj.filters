@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\src\Vehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\src\VehicleFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\src\ParkingSpot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\src\ParkingFloor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\src\ParkingLot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\src\ParkingTicket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\src\ParkingStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\src\PricingStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\HP\OneDrive\Desktop\LLD\parking_lot_LLD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A8AD9021-7168-368B-93A1-4BB9AA882352}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -3,7 +3,8 @@
 enum class VehicleType {
     BIKE,
     CAR,
-    TRUCK
+    TRUCK,
+    BUS
 };
 
 // Scoped values such as VehicleType::CAR are clear and avoid implicit integer conversions.

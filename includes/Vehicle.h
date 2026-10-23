@@ -39,5 +39,11 @@ class Truck:public Vehicle{
 
 };
 
+class Bus:public Vehicle{
+
+    public:
+    explicit Bus(std::string registrationNumber );
+
+};
 
 //explicit is an extra safety measure: it makes the code explicitly ask to create a Truck, instead of letting C++ silently convert a registration number into one.
